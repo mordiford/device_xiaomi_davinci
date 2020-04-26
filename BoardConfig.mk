@@ -42,3 +42,6 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1610612736
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/davinci/BoardConfigVendor.mk
+
+# Floko Specific
+TARGET_HAS_FOD := true
