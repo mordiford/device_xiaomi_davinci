@@ -19,6 +19,9 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # Assert
 TARGET_OTA_ASSERT_DEVICE := davinci,davinciin
 
+# FOD
+TARGET_HAS_FOD := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := libinit_davinci
 TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
